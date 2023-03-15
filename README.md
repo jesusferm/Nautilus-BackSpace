@@ -1,6 +1,6 @@
 # BackSpace Nautilus 43
 
-Use key backspace to back directory in nautilus 43, only for Fedora >= 37, if any use distro based debian ajust the packge
+Use key backspace to back directory in nautilus 43, 44, support and tested on Fedora 37, 38 Beta, if any use distro based debian ajust the packge
 
 ## Install dependencies package
 
@@ -30,4 +30,4 @@ sudo dnf install nautilus-python python3-gobject gtk3 python3 python2 gobject-in
 nautilus -q
 ```
 
-- I test this on fedora 37 beta, with kernel 6.0.7, it's works
+- I test this on Fedora 37, 38 BETA, with kernel >= 6.0.7, 6.2, it's works
