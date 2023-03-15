@@ -1,4 +1,4 @@
-# BackSpace Nautilus on Gnome 43, 44
+# BackSpace in Nautilus on Gnome 43, 44
 
 Use key backspace to back directory in nautilus on gnome 43, 44, support and tested on Fedora 37, 38 Beta, if any use distro based debian ajust the packge
 
