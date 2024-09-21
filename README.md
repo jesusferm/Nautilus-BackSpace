@@ -18,7 +18,7 @@ sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfre
 ### Install package necessary
 
 ```
-sudo dnf install nautilus-python python3-gobject gtk3 python3 python2 gobject-introspection-devel pkg-config python3-devel
+sudo dnf install nautilus-python python3-gobject gtk3 python3 gobject-introspection-devel pkg-config python3-devel nautilus-extension file-roller-nautilus nautilus-devel nautilus-extensions nautilus-python-devel
 ```
 
 ## Download python script and save into 
@@ -32,7 +32,7 @@ sudo dnf install nautilus-python python3-gobject gtk3 python3 python2 gobject-in
 nautilus -q
 ```
 
-- I test this on Fedora 37, 38 BETA, with kernel >= 6.0.7, 6.2, it's works
+- Tested on Fedora with Gnome (47)
 
 License: MIT
 
