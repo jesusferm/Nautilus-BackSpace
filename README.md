@@ -2,7 +2,7 @@
 
 The script BackSpaceGnome31-46.py its for fedora version 31 to 40 and Gnome 43 to 46.
 
-The script BackSpaceGnome47.py its for fedora version 41 and Gnome 47.
+For gnome 47 not working correctly: it still has several problems, I hope to release a correct version soon.
 
 ## Install dependencies package
 
