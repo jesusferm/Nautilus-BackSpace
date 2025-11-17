@@ -1,12 +1,11 @@
 # BackSpace in Nautilus on Gnome
 
-The script BackSpaceGnome31-46.py its for fedora version 31 to 40 and Gnome 43 to 46.
+Versión for Gnome before 41, 42 to 48, and for gnome 49
 
-For gnome 47 not working correctly: it still has several problems, I hope to release a correct version soon.
 
-## Install dependencies package
+## Install dependencies package for all versión
 
-Installa rpmfusion repositorie
+Install rpmfusion repositorie
 
 ```
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
@@ -15,24 +14,28 @@ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-rele
 sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 ```
 
-### Install package necessary
+### Install package
 
 ```
-sudo dnf install nautilus-python python3-gobject gtk3 python3 gobject-introspection-devel pkg-config python3-devel nautilus-extension file-roller-nautilus nautilus-devel nautilus-extensions nautilus-python-devel
+sudo dnf install nautilus-python python3-gobject gtk3 python3 gobject-introspection-devel pkg-config python3-devel gtk-murrine-engine  kernel-headers kernel-devel dkms elfutils-libelf-devel qt5-qtx11extras gcc make perl bzip2 meson ninja-build gcc python3-devel python3-pip gobject-introspection-devel glib2-devel nautilus-devel
 ```
 
 ## Download python script and save into 
 
+
 ```
 ~/.local/share/nautilus-python/extensions
 ```
+
+
+
 ## Restart nautilus
 
 ```
 nautilus -q
 ```
 
-- Tested on Fedora with Gnome (47)
+- Tested on Fedora with Gnome (41-49)
 
 License: MIT
 
