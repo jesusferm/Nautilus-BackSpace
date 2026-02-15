@@ -57,6 +57,8 @@ class BackspaceBack(GObject.GObject, Nautilus.InfoProvider):
 
         try:
             window.activate_action("slot.up", None)
+			# for use in tree
+			#window.activate_action("slot.back", None)
             return True
         except Exception as e:
             print(f"[BackspaceBack] Error al activar 'slot.up': {e}", file=os.sys.stderr)
