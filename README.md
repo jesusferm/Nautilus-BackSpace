@@ -1,6 +1,6 @@
 # BackSpace in Nautilus on Gnome
 
-Versión for Gnome before 41, 42 to 48, and for gnome 49
+Versión for Gnome before 41, 42 to 48, 49 and for gnome 50
 
 
 ## Install dependencies package for all versión
